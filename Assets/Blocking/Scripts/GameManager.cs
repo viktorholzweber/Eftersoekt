@@ -93,10 +93,11 @@ public class GameManager : MonoBehaviour
                 //delete object from scene
                 Destroy(go, .5f);
             }
+
             if (go.name.Contains("UselessItem"))
             {
-                //Text for useless objects
 
+                //Text for useless objects
                 if (go.name.Equals("UselessItem1"))
                 {
                     TextUI.instance.ShowText("A dirty piece of paper...", 3);
@@ -116,10 +117,6 @@ public class GameManager : MonoBehaviour
                 if (go.name.Equals("UselessItem5"))
                 {
                     TextUI.instance.ShowText("An empty bottle of beer...", 3);
-                }
-                if (go.name.Equals("UselessItem5"))
-                {
-                    TextUI.instance.ShowText("Seems like the home of an alcoholic... ", 3);
                 }
                 if (go.name.Equals("UselessItem6"))
                 {
