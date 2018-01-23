@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\Blocking\Scripts\FadeAnimation.cs" />
      <Compile Include="Assets\Blocking\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Blocking\Scripts\OnMouseOverColor\OnMouseOverColor.cs" />
      <Compile Include="Assets\Blocking\Scripts\PickUpKeyItem.cs" />
      <Compile Include="Assets\Blocking\Scripts\UI Slideshow Intro\SlideshowIntro.cs" />
      <Compile Include="Assets\Blocking\Scripts\UI Text\TextUI.cs" />
